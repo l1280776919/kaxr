@@ -23,7 +23,7 @@ public @interface Cache {
      */
     long timeout() default -1;
     /**
-     *
+     * 缓存类型
      */
     CacheType type() default CacheType.INSERT;
 
